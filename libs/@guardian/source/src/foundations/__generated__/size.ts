@@ -8,7 +8,7 @@
 
 export const height = {
 	/** Medium height call to action buttons and links */
-	ctaMedium: 44,
+	ctaMedium: 52,
 	/** Small height call to action buttons and links */
 	ctaSmall: 36,
 	/** Extra small height call to action buttons and links */
@@ -18,7 +18,7 @@ export const height = {
 	/** Checkables such as checkboxes or radio buttons */
 	iconXsmall: 20,
 	/** Text input fields, radio and checkbox labels */
-	inputMedium: 44,
+	inputMedium: 52,
 	/** Checkables such as checkboxes or radio buttons */
 	inputXsmall: 24,
 } as const;
@@ -31,13 +31,13 @@ export const iconSize = {
 /** May be used for call to action buttons and user input fields. */
 export const size = {
 	/** Meets WCAG 2.1 AAA compliance for touch targets. */
-	medium: 44,
+	medium: 52,
 	small: 36,
 	xsmall: 24,
 } as const;
 export const width = {
 	/** Medium height call to action buttons and links */
-	ctaMedium: 44,
+	ctaMedium: 52,
 	/** Small height call to action buttons and links */
 	ctaSmall: 36,
 	/** Extra small height call to action buttons and links */
@@ -51,7 +51,7 @@ export const width = {
 } as const;
 export const remHeight = {
 	/** Medium height call to action buttons and links */
-	ctaMedium: '2.75rem',
+	ctaMedium: '3.25rem',
 	/** Small height call to action buttons and links */
 	ctaSmall: '2.25rem',
 	/** Extra small height call to action buttons and links */
@@ -61,7 +61,7 @@ export const remHeight = {
 	/** Checkables such as checkboxes or radio buttons */
 	iconXsmall: '1.25rem',
 	/** Text input fields, radio and checkbox labels */
-	inputMedium: '2.75rem',
+	inputMedium: '3.25rem',
 	/** Checkables such as checkboxes or radio buttons */
 	inputXsmall: '1.5rem',
 } as const;
@@ -74,13 +74,13 @@ export const remIconSize = {
 /** May be used for call to action buttons and user input fields. */
 export const remSize = {
 	/** Meets WCAG 2.1 AAA compliance for touch targets. */
-	medium: '2.75rem',
+	medium: '3.25rem',
 	small: '2.25rem',
 	xsmall: '1.5rem',
 } as const;
 export const remWidth = {
 	/** Medium height call to action buttons and links */
-	ctaMedium: '2.75rem',
+	ctaMedium: '3.25rem',
 	/** Small height call to action buttons and links */
 	ctaSmall: '2.25rem',
 	/** Extra small height call to action buttons and links */
