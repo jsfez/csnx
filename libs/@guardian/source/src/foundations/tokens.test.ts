@@ -187,7 +187,7 @@ describe('Size tokens', () => {
 		expect(size).toEqual({
 			xsmall: 24,
 			small: 36,
-			medium: 44,
+			medium: 52,
 		});
 		expect(iconSize).toEqual({
 			xsmall: 20,
@@ -197,27 +197,27 @@ describe('Size tokens', () => {
 		expect(height).toEqual({
 			ctaXsmall: 24,
 			ctaSmall: 36,
-			ctaMedium: 44,
+			ctaMedium: 52,
 			iconXsmall: 20,
 			iconSmall: 26,
 			iconMedium: 30,
 			inputXsmall: 24,
-			inputMedium: 44,
+			inputMedium: 52,
 		});
 		expect(remHeight).toEqual({
 			ctaXsmall: '1.5rem',
 			ctaSmall: '2.25rem',
-			ctaMedium: '2.75rem',
+			ctaMedium: '3.25rem',
 			iconXsmall: '1.25rem',
 			iconSmall: '1.625rem',
 			iconMedium: '1.875rem',
 			inputXsmall: '1.5rem',
-			inputMedium: '2.75rem',
+			inputMedium: '3.25rem',
 		});
 		expect(width).toEqual({
 			ctaXsmall: 24,
 			ctaSmall: 36,
-			ctaMedium: 44,
+			ctaMedium: 52,
 			iconXsmall: 20,
 			iconSmall: 26,
 			iconMedium: 30,
@@ -226,7 +226,7 @@ describe('Size tokens', () => {
 		expect(remWidth).toEqual({
 			ctaXsmall: '1.5rem',
 			ctaSmall: '2.25rem',
-			ctaMedium: '2.75rem',
+			ctaMedium: '3.25rem',
 			iconXsmall: '1.25rem',
 			iconSmall: '1.625rem',
 			iconMedium: '1.875rem',

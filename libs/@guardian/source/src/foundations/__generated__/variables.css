@@ -13,13 +13,13 @@
 	--source-breakpoint-phablet: 41.25rem;
 	--source-breakpoint-tablet: 46.25rem;
 	--source-breakpoint-wide: 81.25rem;
-	--source-height-ctaMedium: 2.75rem;
+	--source-height-ctaMedium: 3.25rem;
 	--source-height-ctaSmall: 2.25rem;
 	--source-height-ctaXsmall: 1.5rem;
 	--source-height-iconMedium: 1.875rem;
 	--source-height-iconSmall: 1.625rem;
 	--source-height-iconXsmall: 1.25rem;
-	--source-height-inputMedium: 2.75rem;
+	--source-height-inputMedium: 3.25rem;
 	--source-height-inputXsmall: 1.5rem;
 	--source-iconSize-medium: 1.875rem;
 	--source-iconSize-small: 1.625rem;
@@ -118,7 +118,7 @@
 	--source-palette-success-300: #185e36;
 	--source-palette-success-400: #22874d;
 	--source-palette-success-500: #58d08b;
-	--source-size-medium: 2.75rem;
+	--source-size-medium: 3.25rem;
 	--source-size-small: 2.25rem;
 	--source-size-xsmall: 1.5rem;
 	--source-space-0: 0.125rem;
@@ -1728,7 +1728,7 @@
 	--source-typographyPresets-titlepiece70-line-height: var(
 		--source-typography-lineHeight-tight
 	);
-	--source-width-ctaMedium: 2.75rem;
+	--source-width-ctaMedium: 3.25rem;
 	--source-width-ctaSmall: 2.25rem;
 	--source-width-ctaXsmall: 1.5rem;
 	--source-width-iconMedium: 1.875rem;
