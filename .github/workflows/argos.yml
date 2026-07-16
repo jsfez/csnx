@@ -1,0 +1,35 @@
+name: Argos
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: '${{ github.workflow }} @ ${{ github.event.pull_request.head.label || github.head_ref || github.ref }}'
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  id-token: write # Argos authenticates via OIDC — no token secret required
+
+jobs:
+  visual-tests:
+    name: Visual testing (Argos)
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0 # so Argos can resolve the base commit
+
+      - uses: ./.github/actions/setup-node-env
+
+      - name: Build Storybook
+        run: pnpm --filter=@guardian/source build-storybook
+
+      - name: Install Playwright browser
+        run: pnpm exec playwright install --with-deps chromium
+
+      - name: Capture screenshots with Argos
+        run: pnpm exec playwright test -c argos/playwright.config.ts

@@ -21,6 +21,9 @@ tsconfig.tsbuildinfo
 # storybook build dirs
 storybook-static
 
+# argos screenshots
+/screenshots/
+
 # playwright stuff
 **/test-results/
 **/playwright-report/

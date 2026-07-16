@@ -10,10 +10,13 @@
 		"test": "./scripts/use-make-instead"
 	},
 	"devDependencies": {
+		"@argos-ci/playwright": "7.3.6",
 		"@changesets/cli": "2.31.0",
 		"@guardian/prettier": "workspace:*",
 		"@manypkg/get-packages": "2.2.0",
+		"@playwright/test": "1.60.0",
 		"@types/node": "24.11.0",
+		"http-server": "14.1.1",
 		"husky": "9.1.4",
 		"lint-staged": "17.0.5",
 		"prettier": "3.8.0",
